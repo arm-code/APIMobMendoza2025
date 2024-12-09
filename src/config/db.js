@@ -21,9 +21,9 @@ const pool = new Pool({
 // probar la conexion a la DB
 pool.connect((error, client, release) => {
     if(error){
-        console.log('error de conexion!!');
+        console.log('error de conexion!!!');
     }else{
-        console.log('Conextion exitosa')
+        console.log('Conexion exitosa!!!!')
         release()
     }
 })
