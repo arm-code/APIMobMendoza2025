@@ -23,7 +23,7 @@ pool.connect((error, client, release) => {
     if(error){
         console.log('error de conexion!!');
     }else{
-        console.log('Conextion exitosa')
+        console.log('Conexion exitosa')
         release()
     }
 })
