@@ -2,7 +2,7 @@ const pg = require('../config/db')
 
 const getAllProducts = async() =>{
 
-    const query ='SELECT * FROM tipos_producto;'
+    const query ='SELECT * FROM productos;'
     try {
         const res = await pg.query(query)
         return res.rows
